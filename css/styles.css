@@ -277,7 +277,7 @@ padding-bottom: 94px;
   padding-top: 94px;
   padding-bottom: 94px;
   background: #f5f4fa;
-  height: 648px;
+  
 }
 
 .img{
@@ -286,17 +286,46 @@ padding-bottom: 94px;
   height: auto;
   
 }
-img-cart {
+.img-cart {
   outline: 1px solid var(--color-shadow)
 
 }
 .list-cart {
   padding-top: 30px;
-  padding-left: auto;
-  padding-right: auto;
-  padding-bottom: 30px;
-  
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;  
 }
+
+.taitol-icon {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height:44px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.list-icon {
+    Width: 20px;
+    Height: 20px;
+    fill:#AFB1B8;
+}
+.flex-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.taitol-icon:hover,
+.taitol-icon:focus{
+ fill: #ffffff;
+ background-color: var(--acsent-color);
+}
+.list-icon:hover,
+.list-icon:focus{
+  fill: var(--wait-color);
+}
+
 .cart {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -335,6 +364,7 @@ img-cart {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-gray);
+  margin-bottom: 16px;
 }
 
 /*----Наша команда---*/
