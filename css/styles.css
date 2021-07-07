@@ -6,7 +6,9 @@
   --text-gray: #757575;
   --color-names: #212121;
   --color-shadow:box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+ 
 }
+
 
 *,
 *::before,
@@ -280,6 +282,7 @@ margin-right: 30px;
 .picture-con{
   
 padding-bottom: 94px;
+padding-top: 94px;
 }
 
 /*----Занятя---*/
@@ -381,6 +384,10 @@ padding-bottom: 94px;
 
 /*----Наша команда---*/
 /*----Наші Клієнти ---*/
+.clients-link:focus,
+clients-link:hover{
+  background-color: #0e83e2;
+}
 .sections-klient{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -428,9 +435,10 @@ padding-bottom: 94px;
     width: 106px;
     height: 60px;
 }
-
-
-
+ .clients-link:hover,
+ .clients-link:focus{
+   fill: #2196f3;
+ }
 
 /*----Наші Клієнти---*/
 /*----Подвал---*/
@@ -482,6 +490,57 @@ padding-bottom: 94px;
    display: flex;
  
 }
+.footer-wrapper {
+    display: flex;
+}
+.footer-social {
+    margin-left: 70px;
+}
+.footer-social-title {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.17;
+    color:var(--wait-color);
+    text-transform: uppercase;
+}
+.footer-social-list {
+    display: flex;
+}
+.footer-social-icon {
+    fill:var(--wait-color);
+    } 
+    .social-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    color: #afb1b8;
+    }
+    .social-link:hover,
+    .social-link:focus{
+      background-color:var(--acsent-color);
+    }
+    .footer-social-link {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.social-icon {
+    fill: currentColor;
+    width: 20px;
+    height: 20px;
+}
+.footer-social-icon {
+    fill:var(--wait-color);
+}
+
 
 /*----Подвал---*/
 
@@ -553,6 +612,14 @@ padding-bottom: 94px;
 .modal-btn:focus {
   background: #2196f3;box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   color: #ffffff;
+}
+.img-conteiner:hover,
+.img-conteiner:focus {
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+ cursor: pointer
+}
+.a:visited {
+  color: #2196F3;
 }
 
 .portfolio-list {
