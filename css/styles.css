@@ -332,15 +332,16 @@ padding-top: 94px;
     justify-content: space-between;
 }
 .taitol-icon:hover,
-.taitol-icon:focus{
- fill: #ffffff;
+.taitol-icon:focus { 
+ fill:var(--wait-color);
  background-color: var(--acsent-color);
+ 
 }
 .list-icon:hover,
 .list-icon:focus{
-  fill: var(--wait-color);
+  fill:var(--wait-color);
+  background-color: var(--acsent-color);
 }
-
 .cart {
   background: #FFFFFF;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -384,10 +385,7 @@ padding-top: 94px;
 
 /*----Наша команда---*/
 /*----Наші Клієнти ---*/
-.clients-link:focus,
-clients-link:hover{
-  background-color: #0e83e2;
-}
+
 .sections-klient{
     padding-top: 94px;
     padding-bottom: 94px;
@@ -435,11 +433,12 @@ clients-link:hover{
     width: 106px;
     height: 60px;
 }
- .clients-link:hover,
- .clients-link:focus{
-   fill: #2196f3;
- }
-
+ 
+.clients-link:hover,
+.clients-link:focus{
+  color: var(--acsent-color); 
+  
+}
 /*----Наші Клієнти---*/
 /*----Подвал---*/
 
@@ -590,7 +589,7 @@ ul {
    position: absolute;
 }
 .btn-tit{
- display: none
+ display: none;
 }
 .modal-btn {
   font-family: var(--main-font);
@@ -604,7 +603,7 @@ ul {
    border-radius: 4px;
    padding: 6px 22px 6px 22px;
    display: flex;
-  border-radius: 4px
+  border-radius: 4px;
    
 }
 
@@ -618,8 +617,8 @@ ul {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
  cursor: pointer
 }
-.a:visited {
-  color: #2196F3;
+.links:visited {
+  color:var(--acsent-color)
 }
 
 .portfolio-list {
